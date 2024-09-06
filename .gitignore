@@ -4,6 +4,7 @@
 /exp_out_figs
 /output
 /output_c
+/tests
 *.png
 *.pyc
 *.npy
