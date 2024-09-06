@@ -10,10 +10,10 @@ from skimage import img_as_bool
 import torch
 from pytorch_metric_learning import distances
 # Custom imports
-from .extractor import ViTExtractor
-from .crf import CRF
-from .clustering import get_K_means_v2
-from .correspondence_functions import (get_load_shape,
+from affcorrs.extractor import ViTExtractor
+from affcorrs.crf import CRF
+from affcorrs.clustering import get_K_means_v2
+from affcorrs.correspondence_functions import (get_load_shape,
                                        image_resize,
                                        get_saliency_maps_V2,
                                        map_descriptors_to_clusters,

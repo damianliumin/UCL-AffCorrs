@@ -10,8 +10,8 @@ from PIL import Image
 import sys, os, glob, yaml
 sys.path.append("..")
 
-from models.extractor import ViTExtractor
-from models.correspondence_functions import *
+from affcorrs.extractor import ViTExtractor
+from affcorrs.correspondence_functions import *
 
 with open("../config/default_config.yaml") as f:
   args = yaml.load(f, Loader=yaml.CLoader)

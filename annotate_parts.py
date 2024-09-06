@@ -11,8 +11,8 @@ import numpy as np
 import cv2
 import torch
 from torchvision import transforms as tf
-from models.extractor import ViTExtractor
-from models.correspondence_functions import (
+from affcorrs.extractor import ViTExtractor
+from affcorrs.correspondence_functions import (
                                               find_correspondences_v3,
                                               uv_im_to_desc,
                                               uv_desc_to_im

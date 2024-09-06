@@ -1,0 +1,12 @@
+README.md
+setup.py
+affcorrs/aff_corrs.py
+affcorrs/augmentation_functions.py
+affcorrs/clustering.py
+affcorrs/correspondence_functions.py
+affcorrs/crf.py
+affcorrs/extractor.py
+affcorrs.egg-info/PKG-INFO
+affcorrs.egg-info/SOURCES.txt
+affcorrs.egg-info/dependency_links.txt
+affcorrs.egg-info/top_level.txt

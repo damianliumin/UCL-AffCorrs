@@ -30,10 +30,10 @@ import torchvision.transforms as tf
 from pytorch_metric_learning import distances
 
 # Custom imports
-from .extractor import ViTExtractor
-from .crf import *
-from .clustering import *
-from .augmentation_functions import *
+from affcorrs.extractor import ViTExtractor
+from affcorrs.crf import *
+from affcorrs.clustering import *
+from affcorrs.augmentation_functions import *
 
 ### Helper functions
 

@@ -12,8 +12,8 @@ import matplotlib.pyplot as plt
 import torch
 import cv2
 sys.path.append("..")
-from models.correspondence_functions import (overlay_segment, resize)
-from models.aff_corrs import AffCorrs_V1
+from affcorrs.correspondence_functions import (overlay_segment, resize)
+from affcorrs.aff_corrs import AffCorrs_V1
 
 # User-defined constants
 SUPPORT_DIR = "../affordance_database/usb/"
