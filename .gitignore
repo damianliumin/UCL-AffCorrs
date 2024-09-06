@@ -5,7 +5,6 @@
 /output
 /output_c
 /tests
-*.egg-info
 *.png
 *.pyc
 *.npy
